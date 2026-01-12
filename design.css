@@ -556,7 +556,7 @@ body {
     width: 100%;
     height: 100%;
     display: block;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/3;
     object-fit: cover;
   }
 
@@ -859,4 +859,5 @@ body {
   .footer-title{ letter-spacing: 0.35em; }
 
 }
+
 
