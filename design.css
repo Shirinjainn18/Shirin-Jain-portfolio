@@ -560,11 +560,7 @@ body {
     object-fit: cover;
   }
 
- @media (max-width: 768px) {
-    .work-slide img{
-      aspect-ratio: 4/3 !important; 
- }
- }
+
 
 
   /* Active (center) */
@@ -866,6 +862,7 @@ body {
   .footer-title{ letter-spacing: 0.35em; }
 
 }
+
 
 
 
