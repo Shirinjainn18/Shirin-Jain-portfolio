@@ -31,10 +31,12 @@ mobileLinks.forEach((link) =>
 
 (function () {
   const projects = [
+    { title: "Orange at Eight", img: "imgs/orangeateight.webp", url: "https://orangeateight.com/" },
     { title: "Aakar House of Jewellery", img: "imgs/aakar.webp", url: "https://aakarhouse.com/" },
     { title: "Shanj Yoga Studio", img: "imgs/shanjyoga.webp", url: "https://shanjyoga.com/" },
     { title: "Serenity Trion", img: "imgs/trion.webp", url: "https://serenitytrion.in/" },
     { title: "SP Shah & Sons", img: "imgs/spshah.webp", url: "https://spshah.in/" },
+
   ];
 
   const track = document.getElementById("workTrack");
@@ -58,7 +60,7 @@ mobileLinks.forEach((link) =>
     .join("");
 
   const slides = Array.from(track.querySelectorAll(".work-slide"));
-  let active = Math.floor(projects.length / 2);
+  let active = 0;
 
   function setActive(index) {
     active = (index + slides.length) % slides.length;
